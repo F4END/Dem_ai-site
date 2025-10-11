@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://demai.ai/sitemap.xml
+
+# Crawl-delay for Yandex (recommended for Russian sites)
+User-agent: Yandex
+Crawl-delay: 1

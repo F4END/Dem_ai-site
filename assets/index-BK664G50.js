@@ -131,7 +131,7 @@ Error generating stack: `+e.message+`
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const $v=[["polyline",{points:"22 7 13.5 15.5 8.5 10.5 2 17",key:"126l90"}],["polyline",{points:"16 7 22 7 22 13",key:"kwv8wd"}]],Wv=ml("trending-up",$v),Fv="/assets/user_photo_new-odxBv4WO.png";function Iv(){const[f,S]=pt.useState({name:"",email:"",phone:"",tariff:"",message:""}),[p,s]=pt.useState(!1);pt.useEffect(()=>{s(!0)},[]);const T=R=>{S({...f,[R.target.name]:R.target.value})},O=R=>{S({...f,tariff:R}),document.getElementById("контакты").scrollIntoView({behavior:"smooth"})},H=async R=>{if(R.preventDefault(),!f.name||!f.email||!f.phone||!f.tariff){alert("Пожалуйста, заполните все обязательные поля.");return}const M=`🔥 Новая заявка с сайта DemAI:
+ */const $v=[["polyline",{points:"22 7 13.5 15.5 8.5 10.5 2 17",key:"126l90"}],["polyline",{points:"16 7 22 7 22 13",key:"kwv8wd"}]],Wv=ml("trending-up",$v),Fv="./assets/user_photo_new-odxBv4WO.png";function Iv(){const[f,S]=pt.useState({name:"",email:"",phone:"",tariff:"",message:""}),[p,s]=pt.useState(!1);pt.useEffect(()=>{s(!0)},[]);const T=R=>{S({...f,[R.target.name]:R.target.value})},O=R=>{S({...f,tariff:R}),document.getElementById("контакты").scrollIntoView({behavior:"smooth"})},H=async R=>{if(R.preventDefault(),!f.name||!f.email||!f.phone||!f.tariff){alert("Пожалуйста, заполните все обязательные поля.");return}const M=`🔥 Новая заявка с сайта DemAI:
 
 👤 Имя: ${f.name}
 📧 Email: ${f.email}
